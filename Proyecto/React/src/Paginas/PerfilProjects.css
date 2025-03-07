@@ -1,0 +1,27 @@
+#PerfilProjects {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 95%;
+    align-items: flex-start;
+    align-self: center;
+}
+
+.volver {
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+.volver svg {
+    font-size: 30px;
+}
+
+#TituloPaginaPerfilProyecto {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #495057;
+    margin-top: 20px;
+}

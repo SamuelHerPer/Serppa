@@ -1,0 +1,117 @@
+.IniciarSesion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .formularioInicioSesion {
+    width: 50%;
+    min-width: 400px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(250, 207, 66);
+    border-radius: 20px;
+  }
+  
+  .formularioInicioSesion h2 {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    color: black;
+  }
+  
+  .formularioInicioSesion input {
+    margin-bottom: 20px;
+    height: 25px;
+    width: 90%;
+    border-radius: 5px;
+  }
+  
+  .contenedorBotonesInicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .botonIniciar {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 62%;
+    background-color: #f2e3b3;
+    font-size: 14px;
+    color: black;
+    padding: 8.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.35s ease;
+    border-style: none;
+  }
+  
+  .botonIniciar:hover {
+    transform: scale(1.1);
+    transition: 0.35s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .botonCrearUser{
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    background-color: #f27a9a;
+    font-size: 14px;
+    color: black;
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.35s ease;
+  }
+  
+  .botonCrearUser:hover{
+    transform: scale(1.1);
+    transition: 0.35s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .avisoNoCuenta{
+    font-size: 15px;
+  }
+  
+  .botonCerrarInicioSesion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 8px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.073);
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: transform 0.35s ease;
+  }
+  
+  .botonCerrarInicioSesion:hover {
+    transform: scale(1.1);
+    transition: 0.35s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }

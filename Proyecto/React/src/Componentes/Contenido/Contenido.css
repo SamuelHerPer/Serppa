@@ -1,0 +1,7 @@
+#Contenido {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: calc(100vh - 70px - 70px);      /* 100% del alto del monitor, menos 70px del header y 70px del footer.*/
+    justify-content: center;
+}

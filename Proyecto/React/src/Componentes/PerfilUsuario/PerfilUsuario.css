@@ -1,0 +1,137 @@
+#PerfilUsuario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 85%;
+}
+
+#TituloPaginaPerfil {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #495057;
+    margin-top: 20px;
+}
+
+#DatosPerfil {
+    border-radius: 5px;
+    padding: 0.75rem 0 0.75rem 0;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#ContenidoPerfil {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Imagen {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    padding: 5px;
+}
+
+#Imagen img {
+    background-color: #f8f8fb;
+    padding: 5px;
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+}
+
+#Imagen img:hover {
+    cursor: pointer;
+}
+
+#Datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: #74788d;
+}
+
+#Datos p {
+    font-size: 18px;
+    margin: 0;
+    padding: 5px;
+}
+
+#Datos > p:nth-child(2) {
+    font-size: 15px;
+}
+
+#TituloActualizarPerfil {
+    color: #343a40;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 2rem 0 1.5rem 0;
+}
+
+#ActualizarPerfil {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 0.75rem 0 0.75rem 0;
+    background-color: #ffffff;
+    width: 100%;
+    justify-content: center;
+}
+
+#FormularioPerfil {
+    display: flex;
+    text-align: left;
+    margin: 0 1rem 0 1rem;
+}
+
+.inputFormulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputFormulario label {
+    margin-bottom: 0.5rem;
+}
+
+.inputFormulario input {
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: .47rem .75rem;
+    margin-bottom: 0.5rem;
+}
+
+#BotonActualizar {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #F24B77;
+    color: #f8f8fb;
+    font-size: .8125rem;
+    font-weight: 400;
+    transition: 0.35s;
+}
+
+#BotonActualizar:hover {
+    transition: 0.35s;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.correcto {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+#inputFotoPerfil {
+    display: none;
+}

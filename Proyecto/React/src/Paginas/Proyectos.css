@@ -1,0 +1,9 @@
+#Proyectos {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.mensajeAnonimo {
+    align-self: center;
+}

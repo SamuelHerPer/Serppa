@@ -1,0 +1,51 @@
+#Header {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px -6px rgba(0, 0, 0, 0.50);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#ContenidoIzq, #ContenidoDer {
+    display: flex;
+    align-items: center;
+}
+
+#BotonLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 60px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F2BE10;
+    transition: 0.35s;
+}
+
+#BotonLogin:hover {
+    transition: 0.35s;
+    background-color: #F28D3B;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#Perfil {
+    display: flex;
+}
+
+#Perfil img{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 48px;
+    width: 48px;
+}
+
+#Perfil img:hover {
+    cursor: pointer;
+}

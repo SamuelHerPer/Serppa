@@ -1,0 +1,101 @@
+#TarjetaProyecto {
+    display: flex;
+    flex-direction: column;
+}
+
+#TarjetaProyecto:last-child {
+    margin-right: 0px;
+}
+
+#InformacionProyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 2px;
+    padding: 1rem;
+    border-radius: 5px 5px 0 0;
+    width: 300px;
+}
+
+#NombreProyecto {
+    padding: 5px 0 10px 0;
+}
+
+#NombreProyecto a{
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#Enlaces {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#PrimeraFila {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    color:#495057;
+}
+
+#PrimeraFila svg {
+    transition: 0.35s;
+}
+
+#PrimeraFila svg:hover{
+    cursor: pointer;
+    color:#bdbdbd;
+    transition: 0.35s;
+}
+
+#Resumen {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    color: #74788d;
+}
+
+#DatosResumen {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.DatoResumen {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.DatoResumen p {
+    margin: 5px;
+}
+
+.positivo {
+    color: green;
+}
+
+.negativo {
+    color: red;
+}
+
+.neutro {
+    color: #495057;
+}
+
+#Grafico img{
+    width: 100%;
+}

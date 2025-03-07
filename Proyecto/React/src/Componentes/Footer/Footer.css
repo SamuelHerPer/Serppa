@@ -1,0 +1,19 @@
+#Footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f5;
+    height: 60px;
+    padding: 5px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+@media screen and (max-width: 676px){
+    #Authors {
+        display: none;
+    }
+
+    #Footer {
+        justify-content: center;
+    }
+}

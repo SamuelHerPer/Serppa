@@ -1,0 +1,16 @@
+#Miembro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.FotoMiembro img {
+    border-radius: 45px;
+    height: 48px;
+    width: 48px;
+}
+
+.NombreMiembro {
+    margin-left: 30px;
+}

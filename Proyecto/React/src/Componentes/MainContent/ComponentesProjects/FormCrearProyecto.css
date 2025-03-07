@@ -1,0 +1,80 @@
+#ContenedorPrincipalCrearProyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#ContenedorFormularioCrearProyecto {
+    text-align: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #F2BE10;
+}
+
+.grupoFormulario{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.grupoFormulario label {
+    margin-bottom: 20px;
+}
+
+.grupoFormulario label select {
+    margin-left: 5px;
+}
+
+.grupoFormulario textarea {
+    width: 80%;
+}
+
+.botonCrearProyecto {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 62%;
+    background-color: #f2e3b3;
+    font-size: 14px;
+    color: black;
+    padding: 8.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.35s ease;
+    border-style: none;
+  }
+  
+  .botonCrearProyecto:hover {
+    transform: scale(1.1);
+    transition: 0.35s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+.volver {
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+.volver svg {
+    font-size: 30px;
+}
+
+.mensajeError {
+    font-weight: 800;
+}
+
+@media screen and (max-width: 676px) {
+    #ContenedorFormularioCrearProyecto {
+        width: 80%;
+    }
+}

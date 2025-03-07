@@ -1,0 +1,103 @@
+#DatosProjects {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+
+#InformacionGeneralProyecto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#InformacionPerfilProyecto {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #ffffff;
+    text-align: left;
+    margin-right: 5px;
+    width: 40%;
+    height: fit-content;
+}
+
+#InformacionProyecto span {
+    font-size: 15px;
+    color: #495057;
+}
+
+#InformacionProyecto p {
+    color: #9093a4;
+}
+
+#InformacionMiembrosProyecto {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #ffffff;
+    margin-left: 5px;
+    width: 40%;
+    height: fit-content;
+}
+
+.TituloSeccion {
+    font-size: 16px;
+    font-weight: 600;
+    color: #343a40 !important;
+}
+
+#HeaderInformacionPerfilProyecto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#HeaderInformacionPerfilProyecto p {
+    display: flex;
+    align-self: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 19px;
+    color: #495057;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+#MiembrosProyecto {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#MiembrosProyecto > * {
+    border-bottom: 1px solid black;
+}
+
+#MiembrosProyecto > :last-child{
+    border-bottom: none;
+}
+
+@media screen and (max-width: 676px) {
+    #InformacionGeneralProyecto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #InformacionPerfilProyecto {
+        width: 90%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    #InformacionMiembrosProyecto {
+        width: 90%;
+        margin-left: 0px;
+    }
+}

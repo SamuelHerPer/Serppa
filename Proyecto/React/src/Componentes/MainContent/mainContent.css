@@ -1,0 +1,14 @@
+.contenedorMain{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7fa;
+    width: 100%;
+    margin-left: 213px;
+}
+
+@media screen and (max-width: 676px){
+    .contenedorMain {
+        margin-left: 0;
+        margin-bottom: 70px;
+    }
+}

@@ -1,0 +1,10 @@
+#PaginaPerfil {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+#Advertencia {
+    align-self: center;
+    justify-self: center;
+}
